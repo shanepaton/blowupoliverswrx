@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Image for Sound</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    <div class="container">
+        <div class="image-container">
+            <img id="clickableImage" src="./wrx.jpg" alt="Click me for sound" width="640"/>
+            <div id="explosionOverlay" class="explosion-overlay">
+                <img src="https://i.gifer.com/origin/8b/8b1b3a0e7a2ff5d84a2248c70a68df19_w200.gif" alt="Explosion" />
+            </div>
+        </div>
+        <audio id="audioPlayer" preload="auto">
+            <source src="./boom.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="kablowy.js"></script>
+</body>
+</html>
